@@ -6,7 +6,7 @@ function Dashboard({ logout }) {
         <h2>Dashboard</h2>
         <Link to="settings">settings</Link>
         <Outlet />
-        <p>Welcome User</p>
+        <p>Welcome User YOU OK BRO</p>
         <button onClick={logout}>Logout</button>
     </div>
   )
